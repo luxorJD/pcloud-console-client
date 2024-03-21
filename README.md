@@ -17,6 +17,8 @@ development. The maintainer of this fork isn't affiliated to pCloud so this
 project is as good or as bad as it gets. If you'd like to contribute to pCloud
 Console Client you're most welcome!
 
+Added Allowall users to write and mount on non empty folder.
+
 ## Documentation
 
 - [Getting Started](https://github.com/sergeyklay/pcloud-console-client/blob/master/docs/GettingStarted.md)
