@@ -97,7 +97,7 @@ jobs:
               echo "CC=$(xcrun -f clang)" >> $GITHUB_ENV
               echo "CXX=$(xcrun -f clang++)" >> $GITHUB_ENV
               echo "SDKROOT=$(xcodebuild -version -sdk macosx Path)" >> $GITHUB_ENV
-
+              echo " -DCMAKE_POLICY_VERSION_MINIMUM=3.5" >> $GITHUB_ENV
               echo "$(xcodebuild -version -sdk macosx Path)" >> $GITHUB_PATH
 
               # Install common tools
